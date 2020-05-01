@@ -57,6 +57,12 @@ app.get("/previous", (req, res) => {
     })
 })
 
+// app.delete("/delete", (req,res){
+//     db.Exercise.deleteOne({
+//         _id: 
+//     })
+// })
+
 app.listen(PORT, () => {
   console.log(`App running on port ${PORT}!`);
 });
